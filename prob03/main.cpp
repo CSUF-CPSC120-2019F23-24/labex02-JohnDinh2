@@ -13,7 +13,7 @@ int main()
   tip = mealCost * .20; //calculate tip
   total = tip + tax + mealCost; //calculate total
   std::cout << "Tip:\t" << "$" << tip << '\n';
-  std::cout << "Tax:\t" << "$" << tax << '\n';
+  std::cout << "Tax:\t" << "$" << tax << '\n'; //display all
   std::cout << "Total:\t" << "$" << total <<'\n';
   return 0;
 }
